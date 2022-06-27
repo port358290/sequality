@@ -26,24 +26,4 @@ public class Calculate {
     }
     return ans / num;
   }
-
-  public int factorial_odd(int x, int y) {
-    int ans = 0;
-    for (int i = x; i <= y; i++) {
-      if (i % 2 == 1) {
-        ans += i;
-      }
-    }
-    return ans;
-  }
-
-  public int factorial_even(int x, int y) {
-    int ans = 0;
-    for (int i = x; i <= y; i++) {
-      if (i % 2 == 0) {
-        ans += i;
-      }
-    }
-    return ans;
-  }
 }

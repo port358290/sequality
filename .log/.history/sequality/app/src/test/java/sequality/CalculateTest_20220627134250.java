@@ -9,7 +9,7 @@ public class CalculateTest {
     Calculate calculate = new Calculate();
     int expected1 = 5;
     double expected2 = 2.5;
-    double delta = 0.5;
+    double delta = 0;
     int arg1 = 2, arg2 = 3;
     int measured1 = calculate.sum(arg1, arg2);
     double measured2 = calculate.sum_ave(arg1, arg2);
